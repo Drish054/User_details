@@ -1,0 +1,102 @@
+body{
+    background-color:#34568B;
+  }
+  form{
+     background-color:white;
+  }
+  h1{
+    text-align:center;
+  }
+  body {
+      font-family: Arial, sans-serif;
+  }
+  
+  #user-form {
+      width: 50%;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #user-form label {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  #user-form input[type="text"], #user-form input[type="text"], #user-form input[type="email"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+  }
+  
+  #user-form input[type="submit"] {
+      background-color: grey;
+      color: #fff;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #user-form input[type="submit"]:hover {
+      background-color: #3e8e41;
+  }
+  
+  #user-table {
+      width: 80%;
+      border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  #user-table th, #user-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+  }
+  
+  #user-table {
+      background-color: #f0f0f0;
+  }
+  
+  #user-table .actions {
+      text-align: center;
+  }
+  
+  #user-table .actions button {
+      margin: 5px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #user-table .actions button:hover {
+      background-color: #3e8e41;
+  }
+  
+  
+  #user-table{
+    counter-reset: serial-number;  /* Set the serial number counter to 0 */
+  }
+  
+  #user-table td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+  }
+  .submit-button{
+    text-align:center;
+  }
+  #user-data .actions button.edit-btn{
+    background-color:blue;
+  }
+  #user-data .actions button.delete-btn{
+    background-color:red;
+  }
